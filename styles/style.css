@@ -1,0 +1,74 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin: 40px 80px;
+    border-radius: 30px;
+}
+
+.overlay {
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    background-image: url('../images/Banner Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+    z-index: -1;
+}
+
+.header h1 {
+    font-size: 75px;
+    font-family: 'Playfair Display', serif;
+    margin: 10px 0;
+}
+
+.header p {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.Offer-section{
+    text-align: center;
+}
+.offer-title{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FF0000;
+    
+}
+.offer-title h1{
+    margin-bottom: 10px;
+}
+section div img{
+    width: 805px;
+    width: 651px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+
+}
+.sub-title{
+    color: #FF0000;
+    font-size: 20px;
+    
+}
+.sub-title p{
+    margin-bottom: 0;
+}
