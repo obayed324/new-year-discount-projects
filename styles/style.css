@@ -72,3 +72,103 @@ section div img{
 .sub-title p{
     margin-bottom: 0;
 }
+.mid-party {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* center vertically */
+    align-items: flex-start;   /* align to the left horizontally */
+    height: 600px;
+    text-align: left;          /* align text inside p/h1 to the left */
+    color: white;
+    overflow: hidden;
+    margin: 40px 80px;
+    border-radius: 30px;
+}
+
+.overlay-mid-party{
+    position: absolute;
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 1320px;
+    z-index: -2;
+}
+.mid-party::after {
+    content: '';
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+    z-index: -1;
+}
+.party-text{
+    padding-left: 80px;
+}
+.party-text h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.party-text button {
+    background-color: transparent; 
+    /* border: 2px solid white;        */
+    color: white;                  
+    padding: 10px 25px;            
+    border-radius: 8px;            
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.party-text button a {
+    color: inherit;              
+    text-decoration: none;      
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.join_the-party{
+    background-image: linear-gradient(to top, #ffefef, #f2e5e5 ,#efe9e9);
+    background-position: center;
+    width: 1220px;
+    height: 482px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    
+}
+.red{
+    color: #FF0000;
+}
+.join_the-party-paragraph{
+    font-size: 20px;
+}
+.join_the-party-paragraph button{
+    background-color: #FF0000; 
+    /* border: 2px solid white;        */
+    color: rgb(255, 255, 255);                  
+    padding: 10px 25px;            
+    border: #FF0000 2px solid;
+    border-radius: 5px;        
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+.join_the-party-paragraph button a{
+    color: inherit;              
+    text-decoration: none;      
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
