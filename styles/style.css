@@ -100,7 +100,7 @@ section div img{
     position: absolute;
     width: 1320px;
     height: 600px;
-    border-radius: 18px;
+    border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
     z-index: -1;
 }
@@ -136,8 +136,8 @@ button:hover {
 .join_the-party{
     background-image: linear-gradient(to top, #ffefef, #f2e5e5 ,#efe9e9);
     background-position: center;
-    width: 1220px;
-    height: 482px;
+    width: 1320px;
+    height: 464px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -155,7 +155,6 @@ button:hover {
 }
 .join_the-party-paragraph button{
     background-color: #FF0000; 
-    /* border: 2px solid white;        */
     color: rgb(255, 255, 255);                  
     padding: 10px 25px;            
     border: #FF0000 2px solid;
@@ -171,4 +170,159 @@ button:hover {
     display: inline-block;
     width: 100%;
     height: 100%;
+}
+
+.new-best_offer{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    margin: 20px auto;
+    gap: 60px;
+    width: 1320px;
+    height: 464px;
+    border-radius: 30px;
+    
+}
+.text-area{
+    max-width: 20%;
+    margin-right: 40px;
+}
+.img-area{
+    height: 380px;
+    width: 380px;
+    margin: 30px;
+    outline: 10px solid red;
+    border-radius:50%;
+    outline-offset: 15px;
+    margin-left: 0 auto;
+}
+.img-area img{
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    
+}
+.text-img-area img{
+    margin-top: 50px;
+    height: 70px;
+    width: 70px;
+}
+.text-img-area{
+    
+    max-width: 15%;
+}
+/* Holiday Sale  */
+
+/* 🧱 Outer container for the whole holiday section */
+.holiday-sale {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+/* 🔖 Subheading style */
+.holiday-sale h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+/* 🟥 Main heading */
+.holiday-sale h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+    margin-top: 0;
+}
+
+/* 🔴 "Holidays" span color */
+.holiday-sale h1 span {
+    color: red;
+}
+
+/* 📝 Paragraph styling */
+.holiday-sale p {
+    max-width: 750px;
+    margin: 0 auto 50px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* 📦 Wrapper for gift box + red rectangle (important for positioning!) */
+.image-wrapper {
+    position: relative;          /* ⬅️ key to make overlap work */
+    height: 450px;
+    width: 100%;
+}
+
+/* 🎁 Container for gift and discount badge */
+.image-off {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;                /* fill the wrapper height */
+}
+
+/* 🎁 Gift box image — overlaps red base */
+.gift-box {
+    position: absolute;
+    width: 400px;
+    left: 100px;
+    bottom: 10px;                /* ⬅️ overlaps top half of 150px red base */
+    z-index: 10;
+}
+
+/* 🔴 Discount badge floating top-right */
+.discount-badge {
+    position: absolute;
+    top: 0;
+    left: 950px;
+    width: 250px;
+    z-index: 3;
+}
+
+/* 🟥 Red background rectangle at bottom */
+.Rect-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+/* 🖼️ Red rectangle image fills container */
+.Rect-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 0 30px 30px;
+}
+
+/* Products area */
+.carts{
+    max-width: 1320;
+    margin: 40px;
+}
+.text{
+    max-width: 40%;
+    
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product img{
+    width: 424px;
+    height: 450px;
+    border-radius: 10px;
 }
