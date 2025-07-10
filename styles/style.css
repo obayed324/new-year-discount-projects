@@ -1,328 +1,367 @@
 .header {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    text-align: center;
-    color: white;
-    overflow: hidden;
-    margin: 40px 80px;
-    border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  margin: 40px 80px;
+  border-radius: 30px;
 }
 
 .overlay {
-    position: absolute;
-    width: 1320px;
-    height: 600px;
-    background-image: url('../images/Banner Image.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -2;
+  position: absolute;
+  width: 1320px;
+  height: 600px;
+  background-image: url("../images/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
 }
 
 .header::after {
-    content: '';
-    position: absolute;
-    width: 1320px;
-    height: 600px;
-    border-radius: 18px;
-    background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
-    z-index: -1;
+  content: "";
+  position: absolute;
+  width: 1320px;
+  height: 600px;
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: -1;
 }
 
 .header h1 {
-    font-size: 75px;
-    font-family: 'Playfair Display', serif;
-    margin: 10px 0;
+  font-size: 75px;
+  font-family: "Playfair Display", serif;
+  margin: 10px 0;
 }
 
 .header p {
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-.Offer-section{
-    text-align: center;
+.Offer-section {
+  text-align: center;
 }
-.offer-title{
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    color: #FF0000;
-    
+.offer-title {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  color: #ff0000;
 }
-.offer-title h1{
-    margin-bottom: 10px;
+.offer-title h1 {
+  margin-bottom: 10px;
 }
-section div img{
-    width: 805px;
-    width: 651px;
-    margin-top: 0;
-    margin-bottom: 20px;
-
-
+section div img {
+  width: 805px;
+  width: 651px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
-.sub-title{
-    color: #FF0000;
-    font-size: 20px;
-    
+.sub-title {
+  color: #ff0000;
+  font-size: 20px;
 }
-.sub-title p{
-    margin-bottom: 0;
+.sub-title p {
+  margin-bottom: 0;
 }
 .mid-party {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   /* center vertically */
-    align-items: flex-start;   /* align to the left horizontally */
-    height: 600px;
-    text-align: left;          /* align text inside p/h1 to the left */
-    color: white;
-    overflow: hidden;
-    margin: 40px 80px;
-    border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center vertically */
+  align-items: flex-start; /* align to the left horizontally */
+  height: 600px;
+  text-align: left; /* align text inside p/h1 to the left */
+  color: white;
+  overflow: hidden;
+  margin: 40px 80px;
+  border-radius: 30px;
 }
 
-.overlay-mid-party{
-    position: absolute;
-    background-image: url('../images/Vectorrr.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
-    width: 1320px;
-    z-index: -2;
+.overlay-mid-party {
+  position: absolute;
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 1320px;
+  z-index: -2;
 }
 .mid-party::after {
-    content: '';
-    position: absolute;
-    width: 1320px;
-    height: 600px;
-    border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
-    z-index: -1;
+  content: "";
+  position: absolute;
+  width: 1320px;
+  height: 600px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+  z-index: -1;
 }
-.party-text{
-    padding-left: 80px;
+.party-text {
+  padding-left: 80px;
 }
-.party-text h1{
-    font-size: 50px;
-    margin-bottom: 0;
+.party-text h1 {
+  font-size: 50px;
+  margin-bottom: 0;
 }
 .party-text button {
-    background-color: transparent; 
-    /* border: 2px solid white;        */
-    color: white;                  
-    padding: 10px 25px;            
-    border-radius: 8px;            
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
+  background-color: transparent;
+  /* border: 2px solid white;        */
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-    background-color: rgba(255, 255, 255, 0.1); 
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .party-text button a {
-    color: inherit;              
-    text-decoration: none;      
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
-.join_the-party{
-    background-image: linear-gradient(to top, #ffefef, #f2e5e5 ,#efe9e9);
-    background-position: center;
-    width: 1320px;
-    height: 464px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    border-radius: 30px;
-    
+.join_the-party {
+  background-image: linear-gradient(to top, #ffefef, #f2e5e5, #efe9e9);
+  background-position: center;
+  width: 1320px;
+  height: 464px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 30px;
 }
-.red{
-    color: #FF0000;
+.red {
+  color: #ff0000;
 }
-.join_the-party-paragraph{
-    font-size: 20px;
+.join_the-party-paragraph {
+  font-size: 20px;
 }
-.join_the-party-paragraph button{
-    background-color: #FF0000; 
-    color: rgb(255, 255, 255);                  
-    padding: 10px 25px;            
-    border: #FF0000 2px solid;
-    border-radius: 5px;        
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 30px;
-    
+.join_the-party-paragraph button {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  border: #ff0000 2px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
 }
-.join_the-party-paragraph button a{
-    color: inherit;              
-    text-decoration: none;      
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+.join_the-party-paragraph button a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
-.new-best_offer{
-    
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    display: flex;
-    margin: 20px auto;
-    gap: 60px;
-    width: 1320px;
-    height: 464px;
-    border-radius: 30px;
-    
+.new-best_offer {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  display: flex;
+  margin: 20px auto;
+  gap: 60px;
+  width: 1320px;
+  height: 464px;
+  border-radius: 30px;
 }
-.text-area{
-    max-width: 20%;
-    margin-right: 40px;
+.text-area {
+  max-width: 20%;
+  margin-right: 40px;
 }
-.img-area{
-    height: 380px;
-    width: 380px;
-    margin: 30px;
-    outline: 10px solid red;
-    border-radius:50%;
-    outline-offset: 15px;
-    margin-left: 0 auto;
+.img-area {
+  height: 380px;
+  width: 380px;
+  margin: 30px;
+  outline: 10px solid red;
+  border-radius: 50%;
+  outline-offset: 15px;
+  margin-left: 0 auto;
 }
-.img-area img{
-    height: 380px;
-    width: 380px;
-    border-radius: 50%;
-    
+.img-area img {
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
 }
-.text-img-area img{
-    margin-top: 50px;
-    height: 70px;
-    width: 70px;
+.text-img-area img {
+  margin-top: 50px;
+  height: 70px;
+  width: 70px;
 }
-.text-img-area{
-    
-    max-width: 15%;
+.text-img-area {
+  max-width: 15%;
 }
 /* Holiday Sale  */
 
 /* 🧱 Outer container for the whole holiday section */
 .holiday-sale {
-    width: 1320px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 60px 20px;
-    position: relative;
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
 }
 
 /* 🔖 Subheading style */
 .holiday-sale h4 {
-    font-size: 16px;
-    font-weight: 400;
-    color: #111;
-    margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #111;
+  margin-bottom: 10px;
 }
 
 /* 🟥 Main heading */
 .holiday-sale h1 {
-    font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #111;
-    margin-top: 0;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+  margin-top: 0;
 }
 
 /* 🔴 "Holidays" span color */
 .holiday-sale h1 span {
-    color: red;
+  color: red;
 }
 
 /* 📝 Paragraph styling */
 .holiday-sale p {
-    max-width: 750px;
-    margin: 0 auto 50px;
-    color: #555;
-    line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto 50px;
+  color: #555;
+  line-height: 1.6;
 }
 
 /* 📦 Wrapper for gift box + red rectangle (important for positioning!) */
 .image-wrapper {
-    position: relative;          /* ⬅️ key to make overlap work */
-    height: 450px;
-    width: 100%;
+  position: relative; /* ⬅️ key to make overlap work */
+  height: 450px;
+  width: 100%;
 }
 
 /* 🎁 Container for gift and discount badge */
 .image-off {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    height: 100%;                /* fill the wrapper height */
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 100%; /* fill the wrapper height */
 }
 
 /* 🎁 Gift box image — overlaps red base */
 .gift-box {
-    position: absolute;
-    width: 400px;
-    left: 100px;
-    bottom: 10px;                /* ⬅️ overlaps top half of 150px red base */
-    z-index: 10;
+  position: absolute;
+  width: 400px;
+  left: 100px;
+  bottom: 10px; /* ⬅️ overlaps top half of 150px red base */
+  z-index: 10;
 }
 
 /* 🔴 Discount badge floating top-right */
 .discount-badge {
-    position: absolute;
-    top: 0;
-    left: 950px;
-    width: 250px;
-    z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 950px;
+  width: 250px;
+  z-index: 3;
 }
 
 /* 🟥 Red background rectangle at bottom */
 .Rect-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
 }
 
 /* 🖼️ Red rectangle image fills container */
 .Rect-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0 0 30px 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 0 30px 30px;
 }
 
 /* Products area */
-.carts{
-    max-width: 1320;
-    margin: 40px;
+.carts {
+  max-width: 1320;
+  margin: 40px;
 }
-.text{
-    max-width: 40%;
+.text {
+  max-width: 40%;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.product img {
+  width: 424px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+/* News Section */
+.subscribe-section {
+  background-color: #efe9e9;
+  width: 1320px;
+  height: 616px;
+  margin: 100px auto; /* centers horizontally, adds space top/bottom */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.news {
+  max-width: 40%;
+  padding-top: 70px;
+}
+
+.subscribe-form {
+    margin-top: 70px;
+    display: flex;
+    width: 500px;
+    height: 60px;
+    border-radius: 50px; 
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form input {
+    flex: 1;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 50px 0 0 50px;
+}
+
+.subscribe-form button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    font-weight: bold;
     
 }
-.products{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.product img{
-    width: 424px;
-    height: 450px;
-    border-radius: 10px;
+
+.subscribe-form button:hover {
+  background-color: #d60000;
 }
